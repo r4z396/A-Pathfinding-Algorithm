@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>A* Pathfinding</title>
+    <script src='source.js'></script>
+    <script src='node.js'></script>
+    <script src='pathfiding.js'></script>
+    <script src='noise.js'></script>
+     <script src='perlin.js'></script>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="">
+    <style>
+        body { padding:0; margin:0; height:100%; width:100%; }
+        div { font-family:arial; font-size:16px; font-weight:bold; text-align:center; }
+    </style>
+    
+</head>
+
+<body onload='onload()'>
+
+
+
+<div>
+	Pathfiding A*<br />
+    
+</div>
+    
+    
+<div class="timerOverlay">
+  <div>
+
+<div id="overlayTime">
+  <div>
+    <span class="fps" id ="fps"></span>
+    <div class="smalltext">FPS</div>
+  </div>
+  <div>
+    <span class="deltaTime" id="deltaTime"></span>
+    <div class="smalltext">DeltaTime</div>
+  </div>
+  <div>
+    <span class="lastSearch" id="lastSearch"></span>
+    <div class="smalltext">LastSearch</div>
+  </div>
+ 
+</div>
+     
+  </div>
+     
+</div>
+       
+  
+
+    
+<div>
+	<canvas id="gameCanvas"></canvas>
+</div>
+    <div class="overlay">
+  <div>
+    <h>A* Pathfiding</h>
+    
+    <br /><h>Information</h>
+      Pathfiding A*<br />
+    Rows <input type="text" id="rows" /><br />
+    Columns <input type="text" id="columns" /><br />
+    
+    Obstacles Click<br />
+    Start/Goal Shift+Click<br />
+	
+    <input type='button' onClick='generateMap()' value='Generate Map'><br />
+    <input type='button' onClick='generateHeigthMap()' value='Generate Height Map'><br />
+    <input type='button' onClick='findP()' value='FindPath'><br />
+    <input type='button' onClick='reset()' value='ResetGrid'><br />
+    
+    <br/>
+    Allow Diagonal Move: <input type="checkbox" id="allowDiagonal" >
+    <br/>
+    Visualitation:
+    <br/>
+    Speed Visualitation: 
+      <br />
+      <input type="range" min="0" max="100" value="0" class="slider" id="speedVisu"><br />
+      
+    Seed <input type="range" min="0" max="100" value="0" class="slider"id="seed" /><br />
+    Frequency<input  type="range" min="0" max="10" value="3" class="slider" id="frequency" /><br />
+    Amplitude<input type="range" min="0" max="10" value="5" class="slider" id="amplitude" /><br />
+    Lacunarity <input type="range" min="0" max="10" value="9" class="slider" id="lacunarity" /><br />
+    Persistance <input type="range" min="0" max="10" value="6" class="slider" id="persistance" /><br />
+    Octaves <input type="range" min="0" max="5" value="5" class="slider" id="octaves" /><br />
+</div>
+       
+  
+</div>
+
+    
+
+</body>
+</html>

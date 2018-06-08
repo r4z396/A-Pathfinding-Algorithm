@@ -1,0 +1,63 @@
+
+
+
+
+
+
+/*div.overlay {
+  position: fixed;  
+  top: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000; 
+  background-color: gray;
+  background-color: rgba(150,150,150,.5);
+}*/
+div.overlay div {
+  position: fixed; 
+  left: 200px;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  color: white; 
+  font-weight: bold; 
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,.5)
+  
+}
+
+div.timerOverlay{
+    position: fixed;
+    left: 42%;
+  
+}
+#overlayTime{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+    
+    
+}
+
+#overlayTime > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #252226;
+	display: inline-block;
+}
+
+#overlayTime div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #161416;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
