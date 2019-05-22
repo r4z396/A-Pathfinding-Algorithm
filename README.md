@@ -1,6 +1,6 @@
 # pathfinding
 
-DEMO: https://r4z396.github.io/pathfinding/
+DEMO: https://r4z396.github.io/A-Pathfinding-Algorithm/
 
 
 Mecánicas actualmente implementadas:
