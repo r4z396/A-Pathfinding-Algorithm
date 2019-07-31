@@ -3,32 +3,20 @@
 DEMO: https://r4z396.github.io/A-Pathfinding-Algorithm/
 
 
-Mecánicas actualmente implementadas:
+Implemented Mechanics:
 
--Posibilidad de creación de dos tipos de mapas completamente diferentes y aleatorios customizados.
+-Posibility of creation of two diferent types of maps complete customized random.
 
--Algoritmo A* implementado y funcional(Falta por mejorar)
+-A* Algorithm implemented and functional.
 
--El algoritmo diferencia perfectamente bloques transitables y los que no
+-Walkable and non walkable blocks
 
--El algoritmo diferencia bloques de altura y no permite subir mas de 1 altura.(Para subir una altura tiene que ser 1 punto de altura máxima de la actual)
+-Different heights
 
--El coste del movimiento diagonal es mayor que de uno  vertical u horizontal.
+-Different cost in vertical and horizontal movement
 
--El coste de subir un nivel o bajar es mucho mas caro que avanzar en la misma  altura, a su vez cuesta mas subir niveles que bajar.
+-The cost of raising a level or lowering is more expensive than advancing at the same height
+El coste de subir un nivel o bajar es mucho mas caro que avanzar en la misma  altura, a su vez cuesta mas subir niveles que bajar.
 
-Mecánicas planteadas:
-
--Suavizado de los giros del path
-
--Simplificado del path
-
--Limpieza de código
-
--Mejorar el algoritmo y su rendimiento
-
--Implementacion de búsqueda de varios caminos a la vez
-
-….
 
 
