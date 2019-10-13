@@ -2,6 +2,8 @@
 
 DEMO: https://r4z396.github.io/A-Pathfinding-Algorithm/
 
+Demonstration of the algorithm to find the shortest path.
+Algorithm: A*. 
 
 Implemented Mechanics:
 
